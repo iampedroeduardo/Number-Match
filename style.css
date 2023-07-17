@@ -1,1 +1,40 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(228, 225, 225);
+}
+.titulo p{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+.titulo{
+    background-color: rgb(3, 210, 210);
+    margin-bottom: 3vh;
+    height: 5vh;
+    width: 100vw;
+}
+.jogo{
+    background-color: white;
+    width: 319px;
+    height: 70vh;
+    margin: auto;
+    border: 2px solid rgba(128,128,128,0.7);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0;
+    overflow-y: scroll;
+}
+.jogo div{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-right: 1px solid rgba(128, 128, 128, 0.5);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+}
